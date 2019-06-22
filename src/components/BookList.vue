@@ -11,7 +11,7 @@
 <script>
 // import and export statements
 import BookForm from './BookForm'
-import BookItem from './BookItem';
+import BookItem from './BookItem'
 export default {name:"BookList",
   components:{BookItem, BookForm},
   methods:{
