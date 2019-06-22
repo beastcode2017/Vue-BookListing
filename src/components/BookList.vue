@@ -12,8 +12,12 @@
 // import and export statements
 import BookItem from './BookItem';
 import BookForm from './BookForm';
-export default {name:"BookList",
-  components:{BookItem, BookForm},
+export default {
+  name:"BookList",
+  components:{
+    BookItem,
+    BookForm
+    },
   data() {
     return {
     title: "All Books",
